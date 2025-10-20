@@ -1,0 +1,21 @@
+@"
+# Python/Django
+__pycache__/
+*.py[cod]
+*.sqlite3*
+staticfiles/
+media/
+
+# Env files
+.env
+.env.*
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Node (اگر داشتی)
+node_modules/
+"@ | Add-Content .gitignore
+
