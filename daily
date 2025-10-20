@@ -1,0 +1,7 @@
+docker compose up -d                 # اجرا
+docker compose restart web           # ری‌استارت سریع
+docker compose logs -f web           # لاگ زنده
+docker compose exec web python manage.py makemigrations
+docker compose exec web python manage.py migrate
+docker compose exec web python manage.py createsuperuser
+docker compose down 
